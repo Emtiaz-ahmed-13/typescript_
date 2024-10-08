@@ -52,3 +52,20 @@ An object in TypeScript is a Structed data type that represents a collection of 
 
 A type alias is a way to create a new name for an existing type.it allows you to define CUSTOM type that refers to another type and give it a more meaningful or descriptive name.
 type aliases are defined using the type keyword followed by the alias,and equal sign(=) and the type it refers to.
+
+                Optional Properties
+
+You can make a certin property optional in an object types by adding a question marks(?) after theproperty name.
+For example,lets say you have an object type for person with name,age and email properties but you want to make the email properties optional.You can do this by adding a question mark after the email property.
+
+                Intersection Type
+
+An intersection type is a way to combine multiple type into a single type that includes all the properties and methods of each consituent type.An interesection type is denoted by the the & symbol.
+
+                Unions
+
+Unions are used to declare a type that can have to one of several possible types.Unions are useful when we want to allow a varialbe or perameter to accept multiple types.The syntax for defining a union type in typeScript uses the pip symbol(|)
+
+                Literal Types
+
+Literal types allow you specify a value that can only be one specific literal value. This means that a variable with a literal type can only have one special value and no other.
