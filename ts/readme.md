@@ -69,3 +69,12 @@ Unions are used to declare a type that can have to one of several possible types
                 Literal Types
 
 Literal types allow you specify a value that can only be one specific literal value. This means that a variable with a literal type can only have one special value and no other.
+
+                Tuples
+
+Tuple is a type that represents an array with a fixed number of elements. where each element can have a different type .The order of the types in the tuple definition corresponds to the order of the values in the actual array.Tuples are similar to array, but they have to specify a  structure and can be used to model finite sequence with known lengths.
+
+
+                Enums
+
+Enums is a way to define a set of named constants. Enums allow you to defin a collection to related values that can be used interchnageably in your code
